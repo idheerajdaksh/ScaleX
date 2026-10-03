@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #0b0b0b;
+}
+
+.nav{
+    background-color:#0b0b0b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.brand-icon{
+    width: 36px;
+    height: 24px;
+    color: white;
+}
+
+.nav h3{
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.nav .nav1{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    gap: 60px;
+    margin: 20px;
+    font-size: 14px;
+}
+
+.nav .nav1 h4{
+    font-weight: 400;
+}
+
+.nav button{
+    background-color:#353535d5;
+    color: white;
+    padding: 11px 14px;
+    border: none;
+    border-radius: 7px;
+    margin-right:30px;
+
+}
+
+.heading h1{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 130px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.heading .buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    border: none;
+}
+.heading .buttons button{
+    background-color: #353535d5;
+    color: white;
+    padding: 9px;
+    border: none;
+    border-radius: 20px;
+    margin-right:30px;
+    padding: 10px 20px;
+}
+
+.heading .buttons #red{
+   background-color: #fc4908;
+    color: white;
+    padding: 9px;
+    border: none;
+    border-radius: 20px;
+    margin-right:30px;
+    padding: 10px 20px;  
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 8px 30px 8px;
+}
+
+.content .cards{
+    background-color: #1b1a1af5;
+    color: white;
+    padding: 0px;
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    
+
+}
+
+.content .cards img{
+    width: 100%;
+    height: 55%;
+    border-radius:20px ;
+    flex-direction: column;
+}
+
+.content .card_content button{
+    background-color: #fc490883;
+    color: #f0c7b8;
+    padding: 9px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+.content .cards .card_content{
+    position: absolute;
+    left: 28px;
+    top: 240px;
+}
+
+.content .card_content h3{
+    color: white;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: -1px;
+
+}
+
+.content .card_content h6{
+    color: gray;
+    margin-top: 15px;
+    
+
+}
+
+.content .cards .card-img{
+    width: 100%;
+    height: 55%;
+    border-radius:20px ;
+    flex-direction: column;
+    align-items: center;
+    object-fit: cover;
+}
+
